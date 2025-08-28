@@ -267,7 +267,15 @@ footer {
 }
 
 .footer-links a {
+  margin: 0;
+}
+.footer-links img {
   margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 10%; /* Уменьшение до 50% от исходной ширины */
+  height: auto;
+  position: relative;
 }
 
 .feedback-form {
