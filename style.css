@@ -273,9 +273,10 @@ footer {
   margin-right: 15px;
   justify-content: center;
   align-items: center;
-  width: 10%; /* Уменьшение до 50% от исходной ширины */
-  height: auto;
+  width: 42px; /* Уменьшение до 50% от исходной ширины */
+  height: 40px;
   position: relative;
+  border-radius: 10px; /* Все углы закруглены на 10px */
 }
 
 .feedback-form {
